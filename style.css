@@ -1,0 +1,133 @@
+*{
+    box-sizing : border-box;
+    background-color:;
+    font-family:  'Signika', sans-serif;
+    margin: 0;
+}
+
+
+.Capa{
+    background: url(./imagem/foto.jpg) center no-repeat;
+    background-size: cover;
+    background-color: white;
+    height: 90vh;
+    text-align: center;
+    padding-top: 20rem;
+}
+
+.capa_titulo{
+    font-size: 3rem;
+    color: white;
+}
+
+.capa_subtitulo{
+    font-size: 2rem;
+    margin: 60px;
+    color: white;
+}
+
+.botao_branco{
+    border-radius: 2rem;
+    background-color: white;
+    font-size: 1rem;
+    padding: 1rem 3rem;
+
+}
+
+.descricao{
+    display: flex;
+    width: 100%;
+    align-content: center;
+    margin: 0 auto;
+}
+
+.descricao_esquerda{
+    width: 60%;
+    margin: 60px;
+}
+
+.sobre_mim{
+    color: rgb(161, 161, 161);
+    font-size: 35px;
+    line-height: 3rem;
+    margin: 30px;
+
+}
+
+.paragrafo1{
+    font-size: 24px;
+    margin: 30px;
+    text-align: justify;
+}
+
+.paragrafo2{
+    font-size: 18px;
+    margin: 30px;
+    text-align: justify;
+}
+
+.botao_cv{
+    border:rgb(131, 83, 21) solid 2px;
+    border-radius: 3rem;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(128, 85, 28);
+    margin: 30px;
+    line-height: 3rem;
+}
+
+.descricao_direita{
+    width: 40%;
+    margin: 40px;
+    padding-top: 4rem;
+}
+
+.habilidades{
+    font-size: 15px;
+    color:black;
+    font-size: 25px;
+    margin: 30px;
+    
+}
+
+ul{
+    padding-left: 2rem;
+    font-size: 1.2rem;
+}
+
+li{
+    line-height: 2rem;
+}
+
+.redes-sociais{
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.quadradinho{
+    display: inline-block;
+    width: 15%;
+    color: white;
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+}
+
+img{
+    height: 50px;
+    
+}
+
+h5{
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+footer{
+    color:gray;
+    font-size: 20px;
+    margin: 5rem;
+    text-align: center;
+}
